@@ -2,15 +2,14 @@
 
 
 
-作者：`UCE 小磊`
+>作者：`UCE 小磊`
 
-时间：`2016/03/12`
+>时间：`2016/03/12`
 
-邮箱：`ylxx@live.com`
+>邮箱：`ylxx@live.com`
 
-标签：`oj` `python` `OnlineJudge`
+>标签：`oj` `python` `OnlineJudge`
 
----
 
 
 ## 一. Python与C++的简单对比：
