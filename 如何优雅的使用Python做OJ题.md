@@ -226,11 +226,10 @@ print strr[:-1]  # 使用切片，去掉了最后一个空格
 ### Python刷OJ，适合人群：
 > * Python初学者，想熟悉Python
 > * 遇到了迷之错误，想换一种语言试一下
-> * 非专业ACMer[^footnote]，想方便做题
+> * 非专业ACMer，想方便做题
 > * 想刷OJ刷出新感觉
 > * 想了解Python的一些输入输出特性
 
 ### 关联阅读:
 1. 让你的Python代码更加pythonic：[http://wuzhiwei.net/be_pythonic/](http://wuzhiwei.net/be_pythonic/)
 2. Python零基础入门：[http://pan.baidu.com/s/1qWXEjwg](http://pan.baidu.com/s/1qWXEjwg)
-[^footnote]:虽然有些ACM比赛提供Python环境，但亚洲区预选赛语言只包括C++、C和Java。
