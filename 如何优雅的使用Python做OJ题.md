@@ -1,8 +1,9 @@
-![](http://mmbiz.qpic.cn/mmbiz/rPmGjYCZYey2h2bG76XfWwZiasn8D7TLulxv6HR1YJHAE0PPsibuCIJukMFz6spRdDMUddIHCehPLtcs71rBY6hA/640?wx_fmt=jpeg&tp=webp&wxfrom=5)
-
 # 如何优雅地使用Python做OJ题
 
+标签（空格分隔）： oj python uce OnlineJudge
 
+---
+![](http://mmbiz.qpic.cn/mmbiz/rPmGjYCZYey2h2bG76XfWwZiasn8D7TLulxv6HR1YJHAE0PPsibuCIJukMFz6spRdDMUddIHCehPLtcs71rBY6hA/640?wx_fmt=jpeg&tp=webp&wxfrom=5)
 
 >作者：`UCE 小磊`
 
@@ -13,6 +14,9 @@
 >标签：`oj` `python` `OnlineJudge`
 
 
+
+
+[TOC]
 
 ## 一. Python与C++的简单对比：
 
@@ -186,6 +190,32 @@ b clan 80 70 60
 [[1, 'blue', 90, 80, 70], ['b', 'clan', 80, 70, 60]]
 ```
 
+
+### 3. 多样例输入
+
+使用`sys.stdin`来代替C语言的`while(scanf("%d",&num)!=EOF)`
+
+例如：
+
+　题目要求：
+> 多样例输入一组整数，要求输出整数的平方，每个结果占一行
+
+　样例输入：
+> 1
+4
+125
+
+
+　Python代码：
+```python
+import sys    
+   
+for line in sys.stdin:
+    print int(line)**2
+
+```
+
+
 ## 三. 输出部分
 一般输出部分较为简单
 #### 1. 关于`print`注意以下几点
@@ -228,10 +258,11 @@ print strr[:-1]  # 使用切片，去掉了最后一个空格
 ### Python刷OJ，适合人群：
 > * Python初学者，想熟悉Python
 > * 遇到了迷之错误，想换一种语言试一下
-> * 非专业ACMer，想方便做题
+> * 非专业ACMer[^footnote]，想方便做题
 > * 想刷OJ刷出新感觉
 > * 想了解Python的一些输入输出特性
 
 ### 关联阅读:
 1. 让你的Python代码更加pythonic：[http://wuzhiwei.net/be_pythonic/](http://wuzhiwei.net/be_pythonic/)
 2. Python零基础入门：[http://pan.baidu.com/s/1qWXEjwg](http://pan.baidu.com/s/1qWXEjwg)
+[^footnote]:虽然有些ACM比赛提供Python环境，但亚洲区预选赛语言只包括C++、C和Java。
